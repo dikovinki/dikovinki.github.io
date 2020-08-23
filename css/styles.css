@@ -51,7 +51,10 @@ a:hover {
   color: #EAF6F6;
 }
 
-
+.dropdown-item {
+  width: auto;
+  padding: 0.25rem;
+}
 
 .top-container {
   background-color: #e4f9f5;
