@@ -8,9 +8,48 @@
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather:900|Montserrat:400|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome script -->
+  <script src="https://kit.fontawesome.com/58732b68d9.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
+    <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">DIKOVINKI</a>
+    <!-- Hamburger menu-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+       <a class="nav-link" href="">Skills</a> 
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Web</a>
+          <a class="dropdown-item" href="#">Fashion</a>
+          <a class="dropdown-item" href="#">Graphic Design</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Contact</a> 
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <!-- Audio player -->
     <audio id="player" src="files/sound.mp3"></audio>
 <div>
 	<button onclick="document.getElementById('player').play()">Play</button>
