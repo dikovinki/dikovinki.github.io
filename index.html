@@ -12,7 +12,8 @@
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico">
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather:900|Montserrat:400|Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather:900|Montserrat:400|Sacramento&display=swap"
+    rel="stylesheet">
 
   <!-- Fontawesome script -->
   <script src="https://kit.fontawesome.com/58732b68d9.js" crossorigin="anonymous"></script>
@@ -25,33 +26,50 @@
     <!-- Brand -->
     <a class="navbar-brand" href="index.html">DIKOVINKI</a>
     <!-- Hamburger menu-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-       <a class="nav-link" href="">Skills</a> 
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Portfolio
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="web.html">Web</a>
-          <a class="dropdown-item" href="#">Fashion</a>
-          <a class="dropdown-item" href="#">Graphic Design</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">Contact</a> 
-      </li>
-    </ul>
-  </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Portfolio
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="web.html">Web</a>
+            <!-- <a class="dropdown-item" href="#">Fashion</a> -->
+            <a class="dropdown-item" href="graph_des.html">Graphic Design</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_me">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  
+
   <div class="top-container">
+    <div class="bird-container bird-container--one">
+      <div class="bird bird--one"></div>
+    </div>
+    
+    <div class="bird-container bird-container--two">
+      <div class="bird bird--two"></div>
+    </div>
+    
+    <div class="bird-container bird-container--three">
+      <div class="bird bird--three"></div>
+    </div>
+    
+    <div class="bird-container bird-container--four">
+      <div class="bird bird--four"></div>
+    </div>
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm Andrey</h1>
     <h2>a web designer</h2>
@@ -67,12 +85,27 @@
     </div>
 
     <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
+
+    <div class="skills" id="skills">
+      <h2>My Skills</h2>
       <div class="skill-row">
         <img class="edit-img" src="images/edit.png" alt="edit-img">
-        <h3>Design & Development</h3>
+        <h3>Graphic Design & Development</h3>
         <p>I'm self-taught Graphic Designer with more than 15 years of experience in the fashion industry</p>
+        <p>So if you need TechPack, Business Card, Flyer or wharever I'll draw it for you using Adobe Illustaror or
+          Photoshop</p>
+          <a class="see_more" href="graph_des.html"><i class="fas fa-eye"></i> see more </a>
+      </div>
+
+      <div class="skill-row">
+        <img class="code-img" src="images/code.png" alt="code-img">
+        <h3>Web design & Development</h3>
+        <p>
+          It is my new passion and I'm learning new stuff every day.</p>
+        <p>
+          So if you need a Website or Landing Page I'm here to help you.
+        </p>
+        <a class="see_more" href="web.html"><i class="fas fa-eye"></i> see more </a>
       </div>
       <div class="skill-row">
         <img class="chillies-img" src="images/chillies.png" alt="chillies-img">
@@ -82,26 +115,41 @@
     </div>
 
     <hr>
-    <div class="contact-me">
+    <div class="contact-me" id="contact_me">
       <h2>Get In Touch</h2>
       <h3>If you love hot wings & beer as much as I do.</h3>
-      <p class="contact-message">Love hot wings & beer as much as I do. We can code while drinking beer & eating hot wings.</p>
+      <p class="contact-message">Love hot wings & beer as much as I do. We can code while drinking beer & eating hot
+        wings.</p>
       <a class="btn" href="mailto:andrey.zhelkovsky@gmail.com">CONTACT ME</a>
     </div>
   </div>
 
 
   <div class="bottom-container">
+    <a href="https://github.com/dikovinki" target="_blank"><i class="fab fa-github fa-lg"></i></a>
     <a href="https://www.linkedin.com/in/azhelkovsky/" target="_blank">LinkedIn</a>
-    <a href="http://www.dikovinki.com" target="_blank">My Art</a>
+    <a href="https://www.dikovinki.com" target="_blank">My Art</a>
     <a href="files/Andrey Zhelkovsky Graphic Designer CV 2020 (514-996-0877).pdf" target="_blank">Curriculum Vitae</a>
+
     <p class="copyright">© 2020 Andrey Zhelkovsky @ DIKOVINKI STUDIO</p>
+
+<div style="display:none;">
+  Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+  href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+</div>
+    
   </div>
 
   <!-- JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 
 
 
