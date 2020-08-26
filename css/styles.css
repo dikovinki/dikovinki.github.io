@@ -62,7 +62,6 @@ a:hover {
 
 
 
-
 .dropdown-item {
   width: auto;
   padding: 0.25rem;
@@ -179,6 +178,27 @@ a:hover {
   display: inline-block;
   font-size: 16px;
 }
+/* PORTFOLIO */
+
+.portfolio_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img.portfolio {
+  width: 450px;
+  height: auto;
+  margin: 5px;
+  transition: all 1s;
+}
+img.portfolio:hover {
+  transform: scale(1.05);
+}
+
+a.portfolio_anchor {
+  margin: 5px;
+}
+
 /* Flying Birds */
 
 .bird {
