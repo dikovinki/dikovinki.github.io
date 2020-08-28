@@ -187,6 +187,12 @@ a.portfolio_anchor {
 .audio_player {
   margin: 2% auto;
 }
+/* FASHION */
+
+.show_room {
+  max-width: 100%;
+  margin: auto;
+}
 
 /* Flying Birds */
 
