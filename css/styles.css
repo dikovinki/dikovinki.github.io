@@ -147,36 +147,19 @@ a:hover {
 
 .btn {
   position: relative;
-  top: 50px;
+  font-family: 'Montserrat', sans-serif;
   background-color: #11CDD4;
   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  display: inline-block;
-  font-size: 16px;
+  
 }
 
 .btn:hover {
   position: relative;
-  top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
   background-color: #30E3CB;
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  display: inline-block;
-  font-size: 16px;
+ 
 }
 /* PORTFOLIO */
 
@@ -184,6 +167,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+
 }
 img.portfolio {
   width: 450px;
@@ -197,6 +182,10 @@ img.portfolio:hover {
 
 a.portfolio_anchor {
   margin: 5px;
+}
+/* Audio Player  */
+.audio_player {
+  margin: 2% auto;
 }
 
 /* Flying Birds */
