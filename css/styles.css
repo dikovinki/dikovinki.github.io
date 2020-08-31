@@ -143,11 +143,11 @@ a:hover {
   transform: translateX(220px);
 }
 .mountain-img {
-   /* position: relative; */
-   bottom: 200px;
+ 
+ 
    width: 33%;
    margin: auto;
-   /* z-index: 1; */
+  
 }
 
 
@@ -169,10 +169,10 @@ a:hover {
   padding: 50px 0 20px;
 }
 
-.contact-message {
+/* .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-}
+} */
 
 .copyright {
   color: #EAF6F6;
@@ -227,6 +227,12 @@ a.portfolio_anchor {
 .show_room {
   max-width: 100%;
   margin: auto;
+  position: relative;
+  z-index: 0;
+}
+.tech_pack {
+  position: absolute;
+  z-index: 1;
 }
 
 /* Flying Birds */
