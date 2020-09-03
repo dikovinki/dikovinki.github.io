@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 <?
 // Your thank you site. 
 // consider this being an existing email address 
@@ -13,3 +22,9 @@ $headers .= "From:andrey zhelkovsky <andrey.zhelkovsky@gmail.com> ";
 mail($to_email, $subject, $message, $headers);
 
 ?>
+
+</body>
+</html>
+
+
+
