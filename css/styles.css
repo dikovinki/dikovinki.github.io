@@ -111,6 +111,7 @@ a:hover {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 25px;
+  overflow: hidden;
 }
 
 .intro {
