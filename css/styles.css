@@ -59,6 +59,7 @@ a.see_more {
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px 10px 0;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 a:hover {
@@ -188,6 +189,7 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
   background-color: #11CDD4;
   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  margin-bottom: 2.5rem;
   
 }
 
